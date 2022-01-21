@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import NuxtLogo from '~/components/NuxtLogo';
+import Index from '~/pages/index';
+import Home from '~/pages/home/index';
 
 Vue.use(Router);
 
@@ -11,8 +12,12 @@ export function createRouter() {
     routes: [
       {
         path: '/',
-        component: NuxtLogo,
-      }
+        component: Index,
+      },
+      {
+        path: '/home',
+        component: Home,
+      },
     ]
   });
 };
