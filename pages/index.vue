@@ -1,12 +1,12 @@
 <template>
   <div class="index">
-    <HeaderIndex />
-    Unlimited movies, TV shows, and more.
-    <br/>
-    Watch anywhere. Cancel anytime
-    <br/>
-    Ready to watch? Enter your email to create or restart your membership.
-    <br/>
+    <HeaderIndex class="index__header"/>
+
+    <div class="index__membership-section">
+      <h1>Unlimited movies, TV shows, and more.</h1>
+      <h3>Watch anywhere. Cancel anytime</h3>
+      <label>Ready to watch? Enter your email to create or restart your membership.</label>
+    </div>
   </div>
 </template>
 
@@ -26,6 +26,17 @@ export default {
   @extend .index__background;
   display: flex;
   flex-direction: column;
+}
+
+.index__membership-section {
+  // display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: $space-xxl;
+}
+
+.index__header {
+  //
 }
 
 .index__background {
