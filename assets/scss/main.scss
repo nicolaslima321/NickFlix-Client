@@ -1,5 +1,62 @@
+@font-face {
+  font-family: 'Martel Sans';
+  src: url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+}
+
+
+* {
+  font-family: 'Martel Sans', sans-serif;
+}
+
+
+// @Breakpoints Variables
+// Small tablets/large smartphones
+$screen-sm-min: 576px;
+// Small tablets
+$screen-md-min: 768px;
+// Tablets
+$screen-lg-min: 992px;
+// Desktops
+$screen-xl-min: 1200px;
+
+
+// @Spacing Variables
+$space-xxs: 2px;
+$space-xs: 4px;
+$space-s: 8px;
+$space-md: 16px;
+$space-lg: 32px;
+$space-xl: 64px;
+$space-xxl: 128px;
+$space-giant: 256px;
+
+
+// @Size Variables
+$size-xxs: 8px;
+$size-xs: 16px;
+$size-s: 32px;
+$size-md: 64px;
+$size-lg: 128px;
+$size-xl: 256px;
+$size-xxl: 512px;
+$size-giant: 1024px;
+
+
+// @Color Variables
 $primary: #F0FAB3;
 $secondary: #F0FAB4;
 $color-red: #FF0000;
 $color-green: #00FF00;
 $color-blue: #0000FF;
+
+
+// Font Weights
+$hairline-weight: 100;
+$thin-weight: 200;
+$light-weight: 300;
+$normal-weight: 400;
+$medium-weight: 500;
+$semibold-weight: 600;
+$bold-weight: 700;
+$xbold-weight: 800;
+$black-weight: 900;
