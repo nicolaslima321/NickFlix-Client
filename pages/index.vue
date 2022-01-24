@@ -3,9 +3,9 @@
     <HeaderIndex class="index__header"/>
 
     <div class="index__membership-section">
-      <h1>Unlimited movies, TV shows, and more.</h1>
-      <h3>Watch anywhere. Cancel anytime</h3>
-      <label>Ready to watch? Enter your email to create or restart your membership.</label>
+      <h1 class="index__text">Unlimited movies, TV shows, and more.</h1>
+      <h3 class="index__text">Watch anywhere. Cancel anytime</h3>
+      <label class="index__text">Ready to watch? Enter your email to create or restart your membership.</label>
     </div>
   </div>
 </template>
@@ -48,5 +48,9 @@ export default {
   top: 0;
   width: 100%;
   background-blend-mode: darken;
+}
+
+.index__text {
+ color: white;
 }
 </style>
